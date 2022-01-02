@@ -18,7 +18,19 @@
   
   .expenses-filter select {
     font: inherit;
-    padding: 0.5rem 3rem;
+    padding: auto;
     font-weight: bold;
     border-radius: 6px;
+  }
+
+  option{
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 450px) {
+    select {
+      text-align: center;
+      margin: 1em;
+      width: 100%;
+    }
   }
